@@ -1,0 +1,87 @@
+https://www.kaggle.com/datasets/thedevastator/airbnb-price-determinants-in-europe
+
+This dataset contains Airbnb rental data for European cities, including characteristics and their effects on price. The dataset includes several features such as the total price of the listing, room type, host status (superhost or not), amenities, and location information which can be used to analyze the factors that affect Airbnb prices. This data can help travelers find an accommodation that satisfies their needs without spending more than necessary. It can also provide business owners valuable insights on how to set competitive prices and optimize their listings for increased bookings. Furthermore, this data is useful for property investors who want to understand pricing trends in different cities across Europe and make informed decisions about investing in real estate
+
+More Datasets
+For more datasets, click here.
+
+Featured Notebooks
+🚨 Your notebook can be here! 🚨!
+How to use the dataset
+This dataset contains Airbnb rental data for multiple European cities, including price, room type, host status, amenities and location information. This data can be used to better understand the factors that influence Airbnb rental prices in Europe.
+
+The columns of the dataset include:
+
+realSum (total price of the listing)
+
+room_type (type of room offered such as private/shared/entire home/apt)
+
+room_shared (whether or not the room is shared)
+
+person_capacity (maximum number of people allowed in the property)
+
+host_is_superhost(whether or not the host is a superhost) (boolean value so either true or false)
+
+multi (whether it’s for multiple rooms or not)
+
+biz(whether it’s for business use or family use )                                 .                                                               
+  dist(the distance from city center )
+  metro dist (the distance from nearest metro station )                             lng(longitude value ) lat(latitude value ) guest satisfaction overall () Cleanliness rating () Bedrooms () and Real sum -Total Price.
+
+First step would be to select features that are important and relevant to you according to your purpose. You can start by selecting the features like realSum ,room type ,host etc which will give you an understanding on how potential customers best fits your requirements i.e how many people will fit into a particular property when renting out a single bedroom versus renting out an entire home/apartment. After that review associated values; this could help you decide on pricing strategies such as offering discounts or raising prices according to needs and demands in different neighbourhoods depending on demand levels, availability and seasonality etc.. The next step would be to plot distance variables with respect to latitude & longitude which will indicate geographical locations where businesses could benefit from having higher occupancy rates by leveraging neighbourhood proximityi n order tackle seasonal variations . And lastly using correlation matrix between all other variables one can correlating parameters which display strong correlations thereby helping establish relationships across other variables relative towards each other as well as decide what set parameters should come into play when based upon one parameter . This dataset however does not provide dates
+
+Research Ideas
+Price forecasting - Analyzing previous data about Airbnb listings, such as pricing, room type and amenities, could help predict potential rental prices in the future.
+
+Business or tourist rental hotspots - By looking at each listing’s location in relation to business and tourism centers and correlating this with pricing can help determine areas where Airbnb rentals will be most profitable.
+
+Customer sentiment analysis - Analyzing customer comments and satisfaction ratings to measure the effectiveness of a specific listing on their overall customer experience could be an useful tool for hosts to optimize their services further and improve user satisfaction ratings
+
+Acknowledgements
+If you use this dataset in your research, please credit the original authors.
+Data Source
+
+License
+License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
+No Copyright - You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information.
+
+Columns
+File: vienna_weekdays.csv
+
+Column name	Description
+realSum	The total price of the Airbnb listing. (Numeric)
+room_type	The type of room offered (e.g. private room, shared room, entire home/apt). (Categorical)
+room_shared	Whether the room is shared or not. (Boolean)
+room_private	Whether the room is private or not. (Boolean)
+person_capacity	The maximum number of people that can be accommodated in a single listing. (Numeric)
+host_is_superhost	Whether or not a particular host is identified as a superhost on Airbnb. (Boolean)
+multi	Whether multiple rooms are provided in one individual listing or not. (Boolean)
+biz	Whether a particular listing offers business facilities like meeting area/conference rooms in addition to accommodation options. (Boolean)
+cleanliness_rating	The rating associated with how clean an individual property was after guests stayed at it. (Numeric)
+guest_satisfaction_overall	The overall rating which shows how satisfied are guests with their stay after visiting an Airbnb property. (Numeric)
+bedrooms	The total quantity of bedrooms available among all properties against a single hosting id. (Numeric)
+dist	Distance from city centre associated with every rental property. (Measurement may vary depending upon scale eg kilometers/miles etc )
+metro_dist	Distance from metro station associated with every rental property. (Measurement may vary depending upon scale eg kilometers/miles etc )
+lng	Longitude measurement corresponding to each rental unit. (Numeric)
+lat	Latitude measurement corresponding to each rental unit. (Numeric)
+File: vienna_weekends.csv
+
+Column name	Description
+realSum	The total price of the Airbnb listing. (Numeric)
+room_type	The type of room offered (e.g. private room, shared room, entire home/apt). (Categorical)
+room_shared	Whether the room is shared or not. (Boolean)
+room_private	Whether the room is private or not. (Boolean)
+person_capacity	The maximum number of people that can be accommodated in a single listing. (Numeric)
+host_is_superhost	Whether or not a particular host is identified as a superhost on Airbnb. (Boolean)
+multi	Whether multiple rooms are provided in one individual listing or not. (Boolean)
+biz	Whether a particular listing offers business facilities like meeting area/conference rooms in addition to accommodation options. (Boolean)
+cleanliness_rating	The rating associated with how clean an individual property was after guests stayed at it. (Numeric)
+guest_satisfaction_overall	The overall rating which shows how satisfied are guests with their stay after visiting an Airbnb property. (Numeric)
+bedrooms	The total quantity of bedrooms available among all properties against a single hosting id. (Numeric)
+dist	Distance from city centre associated with every rental property. (Measurement may vary depending upon scale eg kilometers/miles etc )
+metro_dist	Distance from metro station associated with every rental property. (Measurement may vary depending upon scale eg kilometers/miles etc )
+lng	Longitude measurement corresponding to each rental unit. (Numeric)
+lat	Latitude measurement corresponding to each rental unit. (Numeric)
+Acknowledgements
+If you use this dataset in your research, please credit the original authors.
+If you use this dataset in your research, please credit .
